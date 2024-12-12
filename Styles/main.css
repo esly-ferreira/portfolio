@@ -95,7 +95,6 @@
   }
 }
 
-
 @media (max-width: 750px) {
   .banner_bg img {
     display: flex;
@@ -129,5 +128,17 @@
     background-image: url(../Imagens/marcadgua.png);
     /* background: #242833; */
     box-shadow: inset 0 470px var(--c1);
+  }
+}
+
+@media (max-width: 600px) {
+  .metade {
+    box-shadow: inset 0 450px var(--c1);
+  }
+}
+
+@media (max-width: 500px) {
+  .metade {
+    box-shadow: inset 0 530px var(--c1);
   }
 }
