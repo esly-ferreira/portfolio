@@ -132,18 +132,25 @@
   .metade {
     background-image: url(../Imagens/marcadgua.png);
     /* background: #242833; */
-    box-shadow: inset 0 470px var(--c1);
+    box-shadow: inset 0 420px var(--c1);
+    padding-bottom:40px;
   }
 }
 
 @media (max-width: 600px) {
   .metade {
-    box-shadow: inset 0 450px var(--c1);
+    box-shadow: inset 0 420px var(--c1);
   }
 }
 
 @media (max-width: 500px) {
   .metade {
-    box-shadow: inset 0 530px var(--c1);
+    box-shadow: inset 0 420px var(--c1);
+  }
+}
+
+@media (max-width: 447px) {
+  .metade {
+    box-shadow: inset 0 480px var(--c1);
   }
 }
