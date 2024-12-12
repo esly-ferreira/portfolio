@@ -62,8 +62,9 @@
 
 .metade {
   background-image: url(../Imagens/marcadgua.png);
+  background-size: cover;
   /* background: #242833; */
-  box-shadow: inset 50vw 0px var(--c1);
+  box-shadow: inset 55vw 0vw var(--c1);
   padding-bottom: 250px;
 }
 
@@ -81,12 +82,19 @@
     margin-top: 50px;
   }
   .metade {
-    box-shadow: inset 0 50vh var(--c1);
+    box-shadow: inset 0 700px var(--c1);
   }
   .header_menu a {
     color: var(--c9);
   }
 }
+
+@media (max-width: 1200px) {
+  .metade {
+    box-shadow: inset 0 700px var(--c1);
+  }
+}
+
 
 @media (max-width: 750px) {
   .banner_bg img {
@@ -120,6 +128,6 @@
   .metade {
     background-image: url(../Imagens/marcadgua.png);
     /* background: #242833; */
-    box-shadow: inset 0 59vh var(--c1);
+    box-shadow: inset 0 470px var(--c1);
   }
 }
