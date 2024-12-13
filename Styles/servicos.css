@@ -119,6 +119,9 @@
   .items {
     grid-template-columns: 1fr;
   }
+  .plano_fundo{
+    padding-top: 60px;
+  }
   .servicos_bg {
     height: 1100;
   }
@@ -156,6 +159,7 @@
   .items li{
     width: 110%;
     height: 60px;
+    border-radius: 15px;
   }
 }
 

@@ -41,6 +41,9 @@
   .sobre_mim {
     grid-template-columns: 1fr;
   }
+  .sobre_mim{
+    margin-bottom: 20px;
+  }
   .quebra img{
     display: none;
   }
@@ -65,3 +68,4 @@
     border-radius: 20px;
   }
 }
+
