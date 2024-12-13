@@ -1,0 +1,172 @@
+.servicos_bg {
+  background: var(--c10);
+  background: rgba(255, 255, 255, 0.2);
+  /* margin: 40px; */
+  border-radius: 40px;
+  height: 850;
+  position: relative;
+  z-index: -1;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(5.3px);
+}
+
+.plano_fundo {
+  margin: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(../Imagens/marcadgua.png);
+}
+
+.servicos_bg h1 {
+  font-family: "poppins";
+  display: flex;
+  justify-content: center;
+  color: var(--c1);
+  font-size: 24px;
+  padding-top: 140px;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.servicos_bg h1::before {
+  content: "";
+  background: var(--p3);
+  height: 14px;
+  width: 5px;
+  margin-top: 12px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.servicos_bg h2 {
+  font-family: "poppins";
+  display: flex;
+  justify-content: center;
+  color: var(--c1);
+  font-size: 32px;
+  /* padding-top: 40px; */
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.items {
+  margin: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+}
+
+.items li {
+  background-color: var(--c8);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  padding: 0;
+}
+.item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  place-items: center;
+}
+
+.caixa {
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.items h3 {
+  font-family: "poppins";
+  font-weight: 400;
+  color: var(--c2);
+  font-size: 30px;
+  text-align: center;
+}
+
+.cima img {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 100px;
+}
+
+.baixo {
+  display: flex;
+  justify-items: end;
+  align-items: end;
+  place-items: end;
+  position: absolute;
+  right: 70px;
+  rotate: 180deg;
+  width: 100px;
+}
+
+.baixo img {
+  width: 100px;
+}
+
+@media (max-width: 1300px) {
+  .items {
+    grid-template-columns: 1fr;
+  }
+  .servicos_bg {
+    height: 1100;
+  }
+  .cima img {
+    display: none;
+  }
+  .baixo img {
+    display: none;
+  }
+  .servicos_bg {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 850px) {
+  .servicos_bg h2,
+  .servicos_bg h3 {
+    font-size: 24;
+  }
+  .servicos_bg {
+    height: 900px;
+  }
+}
+
+@media (max-width: 670px) {
+  .servicos_bg h2 {
+    font-size: 20;
+  }
+  .servicos_bg h1 {
+    padding-top: 50;
+  }
+  .servicos_bg {
+    height: 650px;
+  }
+  .items li{
+    width: 110%;
+    height: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .servicos_bg h3 {
+    font-size: 16;
+  }
+  .servicos_bg h2 {
+    font-size: 13;
+  }
+  .servicos_bg {
+    height: 600px;
+  }
+}

@@ -27,10 +27,6 @@
   border-bottom: var(--p1) solid 2px;
 }
 
-li {
-  list-style: none;
-}
-
 @media (max-width: 750px) {
   .header {
     flex-wrap: wrap;

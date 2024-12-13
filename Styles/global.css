@@ -4,18 +4,18 @@
   --p2: #346b19;
   --p3: #7fff24;
   --c0: #ffffff;
-  --c1: #f7f7f7;
-  --c2: #ededed;
-  --c3: #dddddd;
-  --c4: #cccccc;
-  --c5: #b3b3b3;
-  --c6: #9b9b9b;
-  --c7: #666666;
-  --c8: #585858;
-  --c9: #404040;
-  --c10: #2e2e2e;
-  --c11: #121212;
-  --c12: #000000;
+  --c1: #F5F7FA;
+  --c2: #E6EAF0;
+  --c3: #CED3D9;
+  --c4: #C0C5CC;
+  --c5: #B2B8BF;
+  --c6: #989EA6;
+  --c7: #7E838C;
+  --c8: #636973;
+  --c9: #474D59;
+  --c10: #363B47;
+  --c11: #242833;
+  --c12: #0B0C12;
   --c13: #03040a;
   --gold: #f0bc34;
 }
@@ -25,7 +25,7 @@ body {
   margin: 0;
   color: var(--cinza8);
   background-color: var(--c13);
-  margin-bottom: 7000px;
+  /* margin-bottom: 7000px; */
 }
 
 /* svg {
@@ -37,6 +37,7 @@ h2,
 h3,
 p {
   margin: 0px;
+  padding: 0px;
 }
 
 .verde {
@@ -45,4 +46,8 @@ p {
 
 html {
   scroll-behavior: smooth; /* Aplica o efeito suave de rolagem */
+}
+
+li {
+  list-style: none;
 }
