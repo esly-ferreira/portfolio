@@ -1,0 +1,11 @@
+@keyframes moverVertical {
+  0% {
+    transform: translateY(0); /* Começa na posição original */
+  }
+  50% {
+    transform: translateY(-5px); /* Move a imagem para cima */
+  }
+  100% {
+    transform: translateY(0); /* Retorna para a posição original */
+  }
+}

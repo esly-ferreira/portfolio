@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./Styles/Style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   </style>
   <title>Esly Barbosa</title>
 </head>
@@ -13,7 +14,7 @@
 <body>
   <div class="metade">
     <header class="header container">
-      <img src="./Imagens/svgs/Logo.svg" alt="">
+      <img class="logo" src="./Imagens/svgs/Logo.svg" alt="">
       <nav>
         <ul class="header_menu">
           <li><a href="#contato">Contato</a></li>
@@ -26,7 +27,35 @@
     <main class="container ">
       <div class="banner">
         <div class="escrita">
-          <h1>Desenvolvedor Front end, UX/UI Designer, Web Desingner</h1>
+          <svg class="esquerdo" width="22" height="33" viewBox="0 0 22 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="5.22622" height="24.0406" transform="matrix(-0.727454 0.686157 -0.727454 -0.686157 21.2903 29.414)" fill="url(#paint0_linear_4_27)"/>
+            <path d="M17.4885 0L21.2903 3.58601L3.80186 20.0816L2.38178e-05 16.4956L17.4885 0Z" fill="url(#paint1_linear_4_27)"/>
+            <defs>
+            <linearGradient id="paint0_linear_4_27" x1="2.61311" y1="0" x2="2.61311" y2="24.0406" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9EF01A"/>
+            <stop offset="1" stop-color="#39B101"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_4_27" x1="19.3894" y1="1.793" x2="2.92188" y2="19.2516" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9EF01A"/>
+            <stop offset="1" stop-color="#CCFF33"/>
+            </linearGradient>
+            </defs>
+            </svg>
+          <h1>Desenvolvedor Front end, UX/UI Designer, Web Designer</h1>
+          <svg class="direito" width="40" height="62" viewBox="0 0 40 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9.81894" height="45.1671" transform="matrix(0.727453 -0.686158 0.727453 0.686157 0 6.73734)" fill="url(#paint0_linear_4_32)"/>
+            <path d="M7.14307 62L0.000245633 55.2627L32.8572 24.2709L40 31.0082L7.14307 62Z" fill="url(#paint1_linear_4_32)"/>
+            <defs>
+            <linearGradient id="paint0_linear_4_32" x1="4.90947" y1="0" x2="4.90947" y2="45.1671" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CBFF32"/>
+            <stop offset="1" stop-color="#438A57"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_4_32" x1="36.4286" y1="27.6396" x2="5.48971" y2="60.4405" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CCFF33"/>
+            <stop offset="1" stop-color="#38B000"/>
+            </linearGradient>
+            </defs>
+            </svg>    
           <p>Localizado em São Paulo. 👨‍💻</p>
         </div>
         <div>
@@ -39,7 +68,30 @@
       </div>
   </div>
   </main>
-  <div class="borda"></div>
+
+  <section class="container">
+    <div class="seta_baixo">
+      <div class="alinhar">
+        <a href="#sobremim"><img src="./Imagens/svgs/seta_baixo.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="sobre_mim" id="sobremim">
+      <div class="titulo">
+        <div class="quebra">
+          <h2>sobre mim <span class="verde">.</span></h2>
+          <img src="./Imagens/svgs/dec.svg" alt="">
+        </div>
+      </div>
+      <div class="texto">
+        <p>Sou Front end e trabalho com desenvolvimento web e mídia impressa. Gosto de transformar problemas complexos em designs simples, bonitos e intuitivos.</p>
+        <br>
+        <p>Meu trabalho é construir o seu site de forma que seja funcional e fácil de usar, mas ao mesmo tempo atraente. Além disso, adiciono um toque pessoal ao seu produto e garanto que ele seja atraente e fácil de usar. Meu objetivo é transmitir sua mensagem e identidade da maneira mais criativa. </p>
+      </div>
+    </div>
+
+  </section>
+
   <script type="text/javascript" src="./js/vanilla-tilt.js">
     VanillaTilt.init(document.querySelectorAll(".paralax"), {
     });
