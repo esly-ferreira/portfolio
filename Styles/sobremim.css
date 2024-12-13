@@ -20,13 +20,13 @@
   grid-template-columns: auto 3fr;
 }
 
-.quebra{
+.quebra {
   display: grid;
   gap: 60%;
   justify-content: space-between;
 }
 
-.quebra h2::before{
+.quebra h2::before {
   content: "";
   background: var(--p3);
   height: 40px;
@@ -34,4 +34,32 @@
   margin-right: 20px;
   display: inline-block;
   border-radius: 20px;
+}
+
+@media (max-width: 1300px) {
+  .sobre_mim {
+    grid-template-columns: 1fr;
+  }
+  .quebra img{
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .sobre_mim{
+    padding-top: 0px;
+  }
+  .titulo h2 {
+    font-size: 42px;
+  }
+  .texto  {
+    font-size: 20;
+  }
+  .quebra h2::before {
+    height: 25px;
+    width: 6px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 20px;
+  }
 }
