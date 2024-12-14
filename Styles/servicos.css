@@ -3,18 +3,22 @@
   background: rgba(255, 255, 255, 0.2);
   /* margin: 40px; */
   border-radius: 40px;
-  height: 850;
+  height: 800;
   position: relative;
   z-index: -1;
   border: 1px solid rgba(255, 255, 255, 0.22);
   backdrop-filter: blur(5.3px);
 }
 
+.estrela {
+  display: none;
+}
+
 .plano_fundo {
   margin: 40px;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(../Imagens/marcadgua.png);
+  /* background-image: url(../Imagens/marcadgua.png); */
 }
 
 .servicos_bg h1 {
@@ -97,7 +101,7 @@
   position: absolute;
   left: 100px;
   top: 100px;
-  width: 100px;
+  width: 80px;
 }
 
 .baixo {
@@ -112,18 +116,18 @@
 }
 
 .baixo img {
-  width: 100px;
+  width: 80px;
 }
 
 @media (max-width: 1300px) {
   .items {
     grid-template-columns: 1fr;
   }
-  .plano_fundo{
+  .plano_fundo {
     padding-top: 60px;
   }
   .servicos_bg {
-    height: 1100;
+    height: 1100px;
   }
   .cima img {
     display: none;
@@ -133,6 +137,17 @@
   }
   .servicos_bg {
     height: 1000px;
+  }
+  .estrela {
+    display: grid;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+  }
+  .estrela img {
+    width: 150px;
+    rotate: -20deg;
+    animation: moverVertical 2s ease-in-out infinite;
   }
 }
 
@@ -151,12 +166,12 @@
     font-size: 20;
   }
   .servicos_bg h1 {
-    padding-top: 50;
+    padding-top: 90;
   }
   .servicos_bg {
-    height: 650px;
+    height: 750px;
   }
-  .items li{
+  .items li {
     width: 110%;
     height: 60px;
     border-radius: 15px;
@@ -171,6 +186,16 @@
     font-size: 13;
   }
   .servicos_bg {
-    height: 600px;
+    height: 650px;
   }
+  .items {
+    margin: 40px;
+  }
+  .estrela img {
+    width: 100px;
+  }
+}
+
+.items .caixa:hover {
+  border: 1px solid #7fff24;
 }

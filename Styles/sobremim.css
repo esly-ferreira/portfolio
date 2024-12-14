@@ -9,7 +9,7 @@
   font-family: "Poppins";
   font-weight: 400;
   color: var(--c6);
-  font-size: 30;
+  font-size: 24;
 }
 
 .sobre_mim {
@@ -21,9 +21,13 @@
   margin-bottom: 150px;
 }
 
+.quebra img {
+  width: 150px;
+}
+
 .quebra {
   display: grid;
-  gap: 60%;
+  gap: 45%;
   justify-content: space-between;
 }
 
