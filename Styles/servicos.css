@@ -163,20 +163,16 @@
 
 @media (max-width: 670px) {
   .servicos_bg h2 {
-    font-size: 20;
-  }
-  .servicos_bg h1 {
-    padding-top: 90;
-  }
-  .servicos_bg {
-    height: 750px;
-  }
-  .items li {
-    width: 110%;
-    height: 60px;
-    border-radius: 15px;
+    font-size: 16;
   }
 }
+
+@media (max-width: 600px) {
+  .servicos_bg {
+    height: 960px;
+  }
+}
+
 
 @media (max-width: 500px) {
   .servicos_bg h3 {
@@ -185,14 +181,14 @@
   .servicos_bg h2 {
     font-size: 13;
   }
-  .servicos_bg {
-    height: 650px;
-  }
   .items {
     margin: 40px;
   }
   .estrela img {
     width: 100px;
+  }
+  .servicos_bg {
+    height: 960px;
   }
 }
 
