@@ -163,13 +163,16 @@
 
 @media (max-width: 670px) {
   .servicos_bg h2 {
-    font-size: 16;
+    font-size: 19;
+  }
+  .servicos_bg h1 {
+    padding-top: 100;
   }
 }
 
 @media (max-width: 600px) {
   .servicos_bg {
-    height: 960px;
+    height: 900px;
   }
 }
 
@@ -188,7 +191,7 @@
     width: 100px;
   }
   .servicos_bg {
-    height: 960px;
+    height: 850px;
   }
 }
 
