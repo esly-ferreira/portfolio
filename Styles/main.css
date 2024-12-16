@@ -178,12 +178,6 @@
   .logo {
     transition: 0.5s;
   }
-  .alinhar:hover,
-  .logo:hover {
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-  }
   .header img {
 
     margin-top: 20px;

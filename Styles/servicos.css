@@ -168,6 +168,9 @@
   .servicos_bg h1 {
     padding-top: 100;
   }
+  .plano_fundo {
+    margin: 20px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -175,7 +178,6 @@
     height: 900px;
   }
 }
-
 
 @media (max-width: 500px) {
   .servicos_bg h3 {
