@@ -180,9 +180,6 @@
 }
 
 @media (max-width: 500px) {
-  .servicos_bg h3 {
-    font-size: 16;
-  }
   .servicos_bg h2 {
     font-size: 13;
   }
